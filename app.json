@@ -1,0 +1,51 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/profile/index",
+    "pages/courses/index",
+    "pages/cart/index"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "selectedIconPath": "pages/images/icon/homepage_fill.png",
+        "iconPath": "pages/images/icon/homepage.png"
+      },
+      {
+        "pagePath":"pages/courses/index",
+        "text":"课程",
+        "selectedIconPath":"pages/images/icon/courses_fill.png",
+        "iconPath":"pages/images/icon/courses.png"
+      },
+      {
+        "pagePath": "pages/cart/index",
+        "text": "购物车",
+        "selectedIconPath": "pages/images/icon/cart_fill.png",
+        "iconPath": "pages/images/icon/cart.png"
+      },
+      {
+        "pagePath": "pages/profile/index",
+        "text": "我的",
+        "selectedIconPath": "pages/images/icon/people_fill.png",
+        "iconPath": "pages/images/icon/people.png"
+      }
+    ]
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  },
+  "debug": true,
+  "navigateToMiniProgramAppIdList": [
+    "wxe5f52902cf4de896"
+  ]
+}
